@@ -1,0 +1,431 @@
+
+body{
+	font-family:'Lucida Sans Unicode', 'Lucida Grande', Tahoma, Arial, san-serif;
+	font-size:12px;
+	color:#636363;
+	line-height:22px;
+	background: url('../images/patterns/body-bg-21.jpg') repeat;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{		
+
+color:#535252;
+font-size:100%; 
+font-weight:normal;
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+
+h1 { font-size: 25px; }
+h2 { font-size: 23px; }
+h3 { font-size: 21px; }
+h4 { font-size: 19px; }
+h5 { font-size: 17px; }
+h6 { font-size: 15px; }
+/*============SPACING ========================*/
+
+ul {
+	list-style: square;
+}
+
+a{
+	color:#9e0a02;
+	text-decoration:none;
+}
+a:hover{
+	color:#535252;
+	text-decoration:underline;
+}
+
+/*============================================================
++		 PAGES STRUCTURE			    	 +
+==============================================================
+*/
+
+#wrapper
+{
+	width:960px;
+	margin:0 auto;
+
+}
+	#header
+	{
+		border-top: 5px solid #3a0201;
+		background-color: #530400;
+		border-bottom: 5px solid #3a0201;
+		height:150px;
+		overflow:hidden;
+		color: white;
+			
+	}
+
+	 #header h1
+	 {
+		padding-top: 30px;
+		font-size: 40px;
+		float: left;
+		margin-bottom: 0;
+
+		}
+
+		 #header h1 a
+		 {
+		 	color: white;
+		 	background:url(../images/logo.png) no-repeat;
+		 	width:248px;
+		 	height:61px;
+		 	text-decoration:none;
+		 	display:block;
+		 	text-indent: -9999px;
+		 	margin:auto 40px 0;
+		 
+
+		 }
+
+/*====================
+Header Social Icons
+====================
+*/
+
+#headsocial 
+{
+	float: right;
+	width: 250px;
+	height: 50px;
+	padding-top: 12px;
+	overflow: hidden;
+}
+
+	#headsocial ul 
+	{
+		list-style: none;
+		overflow: hidden;
+		float: right;
+		margin-right: 30px; /* this is used to make
+		                          absoulte alignment in the end */
+	}
+
+	     #headsocial ul li
+	     {
+
+	   	float: left;
+	   	margin: 0;
+	          }
+
+	          	   #headsocial ul li a
+	          	   {
+
+	          	     padding: 0 5px;
+	          	     text-decoration: none;
+	          	     border:none;
+	          	     	
+	          	   }
+
+/*====================
+Main Navigation
+====================
+*/
+
+
+#navigation
+{
+	
+	width:960px;
+	height:50px;
+	background-color:#efedee;
+	border-top: 3px solid #dfddde;
+	border-bottom: 3px solid #dedcdd;
+	
+	}
+
+	   #navigation ul
+	    {
+	  	font-size: 13px;
+	  	overflow:hidden;
+
+	      }
+
+	      #navigation ul li
+	       {
+	      	float: left;
+	      	list-style: none;
+	      	margin: 0;
+	      	line-height: 50px;
+	      }
+
+	      	  #navigation ul li a 
+	      	  {
+
+	      	  	color: #535252;
+	      	  	text-decoration: none;
+	      	  	padding: 0 20px;
+	      	  	border-right: 1px solid #e1e1e1;
+	      	  	display: block;
+	      	  	text-transform: uppercase;
+	      	  }
+
+	      	   	#navigation ul li a:hover, #navigation ul li a.selected
+	      	   	{
+	      	   		color:#9e0a02;
+	      	   		background-color: #e1e1e1;
+
+	      	   	}
+
+	      	   	  #navigation ul li a.last 
+	      	   	    {
+	      	   	       border:none;
+	      	   	     }
+
+/*====================
+	Banner
+====================
+*/
+
+
+#banner{
+	width: 960px;
+	height: 300px;
+	background-color: #333;
+	position: relative;
+}
+	#banner .textpanel{
+
+		position: absolute;
+		top: 40px;
+		right: 0;
+		left: 480px;
+
+	}	
+
+		#banner .textpanel h1{
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-size: 22px;
+		line-height: 30px;
+		}
+
+			#banner .textpanel .btn{
+				background-color: #5c5c5c;
+				padding: 10px;
+				color: #faf3bc;
+				text-transform: uppercase;
+				margin: 20px 0 0 30px;
+				float: left;
+			}
+
+				#banner .textpanel .btn:hover{
+					background-color: #454241;
+					text-decoration: none;	
+
+				}
+
+
+/*====================
+	Container
+====================
+*/
+
+
+#container
+{	
+	width: 960px;
+	overflow: hidden;
+	background-color: white;
+}
+
+/*====================
+main content
+====================
+*/
+
+
+#maincontent
+{
+width: 620px;
+float: left;
+padding-top:20px
+
+}
+
+	#maincontent h2{
+		padding-left: 20px;
+		margin: 0;
+
+	}
+
+	#maincontent p{
+		padding: 10px 20px 5px 20px;
+	}
+
+
+/*====================
+sidebar
+====================
+*/
+
+#sidebar{
+	width: 339px;
+	float: right;
+	padding-top: 20px;
+	border-left: 1px solid #E3E3E3;
+
+}
+
+	#sidebar h3{
+
+		padding-left: 20px;
+		margin: 0;
+	}
+
+	#sidebar .widget{
+		width: 300px;
+		padding:10px 20px;
+	}
+
+		#sidebar .widget ul{
+			list-style: none;
+			margin-bottom: 10px;
+		}
+
+		 #sidebar .widget ul li{
+
+		 	width: 299px;
+		 	border-bottom:  1px solid #E3E3E3;
+		 	padding-bottom: 10px;
+		 	margin-bottom: 10px;
+
+		 }	
+
+		 	#sidebar .widget ul li span{
+
+		 		font-size: 11px;
+		 		color: #535252;
+		 	}
+		 		#sidebar .widget ul li h4{
+
+		 			font-size: 14px;
+		 			text-transform: uppercase;
+		 		}
+
+
+				 #sidebar .widget li img{
+				 	border: none;
+				 	float: right;
+				 }		
+
+
+/*====================
+	footer
+====================
+*/	
+
+#footer{
+	background-color: #530400;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+	#footer a{
+		color: #e42e37;
+		}
+		
+		#footer a:hover{
+				color: #e7854f;
+				text-decoration: underline;
+		}
+
+
+			#footer .section{
+				width: 260px;
+				float: left;
+				margin-left: 50px;
+			}
+
+				#footer .section h5{
+					color: white;
+					font-size: 18px;
+					border-bottom: 1px solid #6b0702;
+					padding-bottom: 15px;	
+					margin-bottom: 10px;
+
+					}
+
+						#footer .section ul{
+							list-style: none;
+						}
+
+							#footer .section ul li{
+
+								width: 200px;
+								border-bottom: 1px solid #6b0702;
+								padding: 10px 0;
+							}
+
+							  #footer .section address{
+
+							  	color: white;
+							  	text-align: left;
+							  	font-style: normal;
+							  	padding: 10px 0;
+							  	margin-bottom: 20px;	
+							  }	
+
+							  	#footer .section a.contact{
+							  			text-transform: uppercase;
+							  	}
+
+							  		#footer .section a.contact strong{
+
+							  			color: white;
+							  			font-size: 17px;
+							  		}
+
+							  			#footer .section a.contact span{
+
+							  				font-size: 16px;
+							  				color: #E3E3E3;
+							  				letter-spacing:7px;
+							  			}	
+
+							  				#footer .section a.contact:hover{
+							  								text-decoration: none;
+							  							
+							  							}
+
+/*====================
+	Copyright
+====================
+*/	
+
+#copyright{
+	background-color: #320300;
+	color: #fae6d2;
+	font-size: 11px;
+	padding: 10px 0;
+	overflow: hidden;
+}
+	
+	#copyright a{
+		color: #e42e37;
+	}
+		#copyright a:hover{
+			color: #e7854f;
+		}
+
+			#copyright p{
+				float: left;
+				padding-left: 50px;
+			}
+
+				#copyright ul {
+					float: right;
+					list-style: none;
+				}	
+
+					#copyright ul li{
+
+						padding-right: 15px;
+						display: inline;
+					}	
